@@ -8,6 +8,8 @@ public class MrDoc : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     Vector2 rawInput;
 
+    
+
     void Update()
     {
         Move();
@@ -24,4 +26,6 @@ public class MrDoc : MonoBehaviour
         rawInput = value.Get<Vector2>();
         Debug.Log(rawInput);
     }
+
+    
 }
