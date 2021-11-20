@@ -20,7 +20,8 @@ public class Key : MonoBehaviour
     {
         Door1,
         Door2,
-        Door3
+        Door3,
+        Door4
     }
     
     public KeyType GetKeyType()
