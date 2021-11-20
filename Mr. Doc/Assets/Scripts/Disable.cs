@@ -6,19 +6,19 @@ using UnityEngine.UI;
 public class Disable : MonoBehaviour
 {
     //Text patient1;
-      
+
 
 
     void Start()
     {
-       // patient1 = GetComponent<Text>();
-         
+        // patient1 = GetComponent<Text>();
+
 
     }
 
     void Update()
     {
-       
+
 
     }
 
@@ -28,12 +28,12 @@ public class Disable : MonoBehaviour
         {
             //playerscript.i = playerscript.i - 1;
             Destroy(gameObject);
-           
+
             Score.Maskscore--;
-           // isRecovered();
+            // isRecovered();
 
         }
-       
+
 
 
     }
@@ -44,7 +44,7 @@ public class Disable : MonoBehaviour
         {
             //playerscript.i = playerscript.i - 1;
             Destroy(gameObject);
-            
+            Panel.n--;
             Score2.Medscore--;
             //isRecovered();
 
@@ -57,8 +57,9 @@ public class Disable : MonoBehaviour
     {
         if (Score3.Oxygenscore > 0)
         {
-           // playerscript.i = playerscript.i - 1;
+            // playerscript.i = playerscript.i - 1;
             Destroy(gameObject);
+            Panel.n--;
             Score3.Oxygenscore--;
             //isRecovered();
 
@@ -75,6 +76,6 @@ public class Disable : MonoBehaviour
             patient1.text = "Patient Recovered";
         }
     }*/
-     
-    
+
+
 }

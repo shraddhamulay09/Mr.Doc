@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Medicine
+  - items
+  - Mask
+  - Oxygen
+  - Recover1
+  - MedButton
+  - OxygenButton
   layers:
   - Default
   - TransparentFX

@@ -15,10 +15,7 @@ public class playerscript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -58,4 +55,5 @@ public class playerscript : MonoBehaviour
             Destroy(collider.gameObject);
         }
     }
+
 }

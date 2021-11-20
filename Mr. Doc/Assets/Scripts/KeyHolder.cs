@@ -48,7 +48,7 @@ public class KeyHolder : MonoBehaviour
                 // currently holding key to open this door
                
                 RemoveKey(keyDoor.GetKeyType());
-                Score4.key = Score4.key -1;
+                Score4.key = Score4.key - 1;
                 keyDoor.OpenDoor();
             }
         }

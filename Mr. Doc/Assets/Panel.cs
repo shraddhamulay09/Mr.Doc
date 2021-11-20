@@ -1,9 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class test : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class Panel : MonoBehaviour
 {
+    public static int n = 12;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,11 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(n==0)
+        {
+            Debug.Log("Win");
+            SceneManager.LoadScene(1);
+        }
+        Debug.Log(n);
     }
 }
